@@ -2,9 +2,21 @@
 
 ![Screenshot of electron app with an ArcGIS map](./esri-loader-electron-screenshot.png)
 
-A fork of [electron-quick-start](https://github.com/electron/electron-quick-start) that demonstrates how to use esri-loader in an electron app.
+A fork of [electron-quick-start](https://github.com/electron/electron-quick-start) that demonstrates how to use [esri-loader](https://github.com/Esri/esri-loader) in an electron application.
 
-The following comes from that repository's README:
+## Adding esri-loader to an Electron Application
+
+To add esri-loader to your own electron application, all you need to do is:
+
+1. Install esri-loader w/ `npm install esri-loader`
+1. Add a [container for the map or scene view](./index.html#L13-L14).
+1. Add the code to load and use esri modules to [your JavaScript](./renderer.js)
+
+See the esri-loader documentation for more information on [how to use esri-loader](https://github.com/Esri/esri-loader#usage).
+
+The following comes from the electron-quick-start README:
+
+## Electron Quick Start
 
 **Clone and run for a quick way to see Electron in action.**
 
