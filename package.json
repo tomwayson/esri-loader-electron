@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "esri-loader-electron",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A fork of electron-quick-start that demonstrates how to use esri-loader in an electron app",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/electron/esri-loader-electron",
   "keywords": [
     "Electron",
     "quick",
