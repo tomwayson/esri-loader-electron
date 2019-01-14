@@ -1,5 +1,7 @@
 # esri-loader-electron
 
+![Screenshot of electron app with an ArcGIS map](./esri-loader-electron-screenshot.png)
+
 A fork of [electron-quick-start](https://github.com/electron/electron-quick-start) that demonstrates how to use esri-loader in an electron app.
 
 The following comes from that repository's README:
