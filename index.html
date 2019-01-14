@@ -2,19 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="https://js.arcgis.com/4.7/esri/css/main.css">
+    <title>Hello esri-loader!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Hello esri-loader!</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
     <!-- a DOM node to hold the map view -->
     <div id="viewDiv" style="height: 400px"></div>
-    <!-- load esri-loader -->
-    <script src="https://unpkg.com/esri-loader@2.3.0"></script>
     <script>
       // we load the JSAPI modules and show a map in renderer.js
       require('./renderer.js')
